@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.0.0
+- 1.9.3
+- jruby-19mode
+- rbx-2
+deploy:
+  provider: heroku
+  api_key:
+    secure: VTbI9aVRg4ulIvYosTIQd4b6wIa0A/oKrRKVzjqwdYB0EuKJ06TIGEZ3uPA6VSYsTIh+7xgND0rx6WyCUFCwKaHK7Foq6VektX5f4G4lh7bWwZy1KBphdy1WG+9aLscJBFbJnmiDK9WVYvXWZbJRkkRzUXj5Ya+jy9O6q3z4HlU=
+  app: stormy-fortress-2739
+  on:
+    repo: lapdog717/rails_enpit
